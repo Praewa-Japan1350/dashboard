@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# การตั้งค่าหน้าเว็บ
 st.set_page_config(page_title="Student Tracker", layout="wide")
 
 # หัวข้อ Dashboard
