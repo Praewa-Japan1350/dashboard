@@ -6,16 +6,22 @@ st.set_page_config(page_title="Professional Student Tracker", layout="wide")
 
 st.markdown("""
     <style>
-    .main {
-        background-color: #f5f7f9;
+    [data-testid="stMetricValue"] {
+        color: #2c3e50 !important; /* สีตัวเลข */
     }
-    .stMetric {
+    [data-testid="stMetricLabel"] {
+        color: #5d6d7e !important; /* สีหัวข้อ */
+    }
+    div[data-testid="stMetric"] {
         background-color: #ffffff;
         padding: 15px;
         border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border: 1px solid #e0e6ed;
     }
     </style>
+    """, unsafe_allow_html=True)
+
     """, unsafe_allow_html=True)
 
 st.title("🎓 Student Performance Analytics Dashboard")
