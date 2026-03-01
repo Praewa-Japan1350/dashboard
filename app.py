@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Professional Student Tracker", layout="wide")
 
 st.markdown("""
-    <style>
+<style>
     [data-testid="stMetricValue"] {
         color: #2c3e50 !important; /* สีตัวเลข */
     }
@@ -19,10 +19,8 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         border: 1px solid #e0e6ed;
     }
-    </style>
-    """, unsafe_allow_html=True)
-
-    """, unsafe_allow_html=True)
+</style>
+""", unsafe_allow_html=True)
 
 st.title("🎓 Student Performance Analytics Dashboard")
 st.markdown("วิเคราะห์ผลการเรียนและพฤติกรรมการเข้าเรียนแบบ Real-time")
